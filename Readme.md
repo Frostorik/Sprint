@@ -9,7 +9,7 @@
 #### <font color="DarkTurquoise">PerevalAreas</font> — Модель областей перевалов, содержит информацию об идентификаторе родительской области и её названии.
 
 ---
-## В процессе разработки проекта были реализованы методы REST API:
+## В процессе разработки проекта были реализованы <font color="MediumPurple">методы REST API:</font>
 #### <font color="DarkTurquoise">POST /submitData/</font> — Запрос на создание записи (перевала).
 #### <font color="DarkTurquoise">GET /submitData/<id></font> — Запрос на получение информации запись (перевал) по её ID. Выводит всю информацию об объекте.
 #### <font color="DarkTurquoise">PATCH /submitData/<id></font> — Отредактировать существующую запись (замена), если она в статусе "new".
