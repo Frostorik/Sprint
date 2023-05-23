@@ -1,7 +1,7 @@
 from django.urls import path
-from Mountain import views
+from Mountain.views import SubmitData
 
 urlpatterns = [
     # path('', Readme.as_view()),
-    path('submit-data/', views.SubmitData, name='submit-data'),
+    path('submit-data/', SubmitData.as_view(), name='submit-data'),
 ]
